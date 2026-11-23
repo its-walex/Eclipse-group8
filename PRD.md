@@ -1,59 +1,85 @@
-1. What problem am I looking into?
-Describe the situation in your own words. What makes you think it might be a problem?
+1. Product Overview
 
-2. Who might have this problem?
-Name the people you observed or spoke with. Don’t assume it affects everyone.
+Question: What is the product?
 
-3. What did I find out?
-Write what you actually saw or heard, and how you found out. If you haven’t done research yet, say so. Keep guesses under Things I still need to check.
+Our product is an online cafeteria ordering system that allows students to order food ahead of time instead of standing in long queues. Students can select their meals, place orders, and pick them up when they are ready or would be delivered to them when ready
 
-4. How do people handle it now?
-Describe what people do today, based on your observations or conversations.
+2. Problem Statement
 
-5. What could help?
-Suggest a possible solution and explain which real finding led you to it. Mark unsupported ideas as hypotheses.
+Question: What problem are we solving?
 
-6. What should the first version include?
-List only the few things needed to try out your idea. For each one, ask: “What user need or evidence supports this?”
+Students often spend too much time waiting in cafeteria lines, especially during lunch breaks. This wastes time, causes overcrowding, and sometimes makes students late for lectures.
 
-7. What questions are still unanswered?
-List what you would need to learn or test next.
+3. Business Objectives
 
-     Answers.
-     Question 1
-  1) Long queues at the cafeteria especially during break periods
-  2) Students spending too much time waiting to get their food
-  3) Congestion around food counters
-  4) Delays caused by the process of looking for food stalls
-  5) Students arriving late due to lectures
+Question: What do we want to achieve?
 
-  Question 2
-1) Students: Those who arrive to receive their food during break periods.
-2) Cafeteria workers: Those responsible for attending to the students
-3) Cafeteria management: Those responsible for overseeing operations.
+We want to reduce long queues, save students time, make food ordering easier, and help cafeteria workers manage orders more efficiently.
 
-Question 3
-1) How long students normally wait
-2) Which periods experience the longest queues
-3) What causes delays
+4. Target Users
 
-Question 4
-The affected people usually give another person, perhaps a friend, to get food for them due to the stress of having to wait on the queue.
-Sometimes, they do not go at all.
+Question: Who will use the product?
 
-Question 5
-A digital food ordering platform could allow students to view available meals, select what they want, place orders, and receive updates when their food is ready for collection.
+Our target users are students who buy food at the school cafeteria and cafeteria staff who receive and prepare their orders.
 
-Question 6
-Student registration/login: Allows students to access the platform.
-Food menu: Displays available food and prices.
-Place order: Allows students to select meals and submit orders.
-Order status: Allows students to see whether their order is being prepared or is ready for collection.
-Vendor dashboard: Allows food vendors to view and manage incoming orders.
+5. Stakeholders
 
-Question 7
-1)  How long do students actually spend in the cafeteria
-2)  At what time does the cafeteria experience its highest number of students
-3)  What causes the longest delays
-4)  Would digitally ordering reduce waiting times?
-5)   Would students be comfortable placing foods through  website?
+Question: Who is involved or affected?
+
+Students, cafeteria workers, and school administration.
+
+6. User Stories
+
+Question: What do users want to accomplish?
+
+ As a student, I want to view the food menu online so I can choose what to eat.
+ As a student, I want to order food before getting to the cafeteria so I don’t have to stand in long lines.
+ As a cafeteria worker, I want to see incoming orders so I can prepare them in order.
+
+7. Functional Requirements
+
+Question: What must the system do?
+
+ Display available meals and their prices.
+ Allow students to select and place food orders.
+ Generate an order number for each order.
+ Allow staff to view ongoing orders  and manage them.
+ Show order status (Pending, Preparing, Ready).
+Notify students when their food is ready.
+
+8. Non-Functional Requirements
+
+Question: How well must the system operate?
+
+The system should be easy to use, fast, secure, mobile-friendly, and reliable, especially during busy hours.
+
+9. Scope and Priorities
+
+Question: What should be included in the first version (MVP)?
+
+Our first version will include an online food menu, order placement, order numbers and  order tracking, 
+
+Features like online payments, food delivery, and advanced recommendations can be added later.
+
+10. Acceptance Criteria
+
+Question: How do we know the system works?
+
+ Students can view available meals and prices.
+ Students can successfully place an order.
+ Each order receives a unique order number.
+ Cafeteria workers can view and update orders.
+ Students can see when their food is ready for pickup.
+
+11. Assumptions and Open Questions
+
+Question: What remains unconfirmed?
+
+We believe ordering food online could reduce physical queues, but we still need to confirm this through research.
+
+Would students prefer ordering online?
+How would students pay for their food?
+ How long would food preparation take?
+How would cafeteria workers handle multiple orders?
+* Would the system actually reduce waiting times?
+
